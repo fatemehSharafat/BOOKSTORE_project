@@ -29,6 +29,7 @@ class App
         if (file_exists($path)) {
             require $path;
             $object = new $this->controller();
+            $object->Model($this->controller);
 
             //Checking the existence of the method
             if (method_exists($object, $this->method)) {
