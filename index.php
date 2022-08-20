@@ -1,4 +1,4 @@
 <?php
-$url=$_GET['url'];
-
-echo $url;
+#add App class
+require 'Core/App.php';
+new App();
