@@ -1,14 +1,16 @@
 <?php
 
-class IndexController
+class IndexController extends Controller
 {
     public function __construct()
     {
-        echo "Controller is available </br> ";
+
     }
 
     public function index()
     {
-        echo 'this index method is available';
+        $this->Header('Index/header');
+        $this->View('Index/index');
+        $this->Footer('Index/footer');
     }
 }
