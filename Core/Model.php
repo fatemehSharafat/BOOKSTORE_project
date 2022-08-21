@@ -14,13 +14,27 @@ class Model
         self::$sql->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         self::$sql->exec('set names utf8');
     }
-
-    public function doQuery($sql,$values=[])
+//query methods
+    public function doQuery($sql, $values = [])
     {
         $query = self::$sql->prepare($sql);
         foreach ($values as $key => $item) {
-            $query->bindValue($key+1,$item);
+            $query->bindValue($key + 1, $item);
         }
         $query->execute();
+    }
+
+    public function doSelect($sql, $values = [], $fetch = '')
+    {
+        $query = self::$sql->prepare($sql);
+        foreach ($values as $key => $item) {
+            $query->bindValue($key + 1, $item);
+        }
+        $query->execute();
+        if ($fetch === '') {
+            return $query->fetchAll();
+        } else {
+            return $query->fetch();
+        }
     }
 }
