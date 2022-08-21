@@ -35,10 +35,10 @@ class App
             if (method_exists($object, $this->method)) {
                 call_user_func_array([$object, $this->method], $this->params);
             } else {
-                echo "This page  not found-ERROR 404";
+                $this->Error404();
             }
         } else {
-            echo "This page  not found-ERROR 404";
+            $this->Error404();
         }
 
     }
@@ -46,8 +46,18 @@ class App
     //String to array conversion method
     public function Explode($url)
     {
-        $url=rtrim($url, '/ ');
+        $url = rtrim($url, '/ ');
         $url = explode('/', $url);
         return $url;
+    }
+
+    public function Error404()
+    {
+        $this->controller = 'Error404Controller';
+        $this->method = 'index';
+        $path = 'Controllers/Error404Controller.php';
+        require $path;
+        $object = new $this->controller();
+        $object->Model($this->controller);
     }
 }

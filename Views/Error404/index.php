@@ -1,9 +1,10 @@
 <!--body error404 page-->
+
 <nav class="shelf">
-    <a class="book home-page">Home page</a>
-    <a class="book about-us">About us</a>
-    <a class="book contact">Contact</a>
-    <a class="book faq">F.A.Q.</a>
+    <a class="book home-page" href="<?php echo URL; ?>IndexController/index">صفحه اصلي</a>
+    <a class="book about-us">درباره ما</a>
+    <a class="book contact" href="">سبد خريد</a>
+    <a class="book faq" href="#">جستجو</a>
 
     <span class="book not-found"></span>
 
