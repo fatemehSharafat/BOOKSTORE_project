@@ -6,6 +6,7 @@ class Model
 
     public function __construct()
     {
+        //cofig project to database
         $serverName = 'localhost';
         $userName = 'root';
         $password = '';
