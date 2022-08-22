@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat','B Homa', sans-serif;
     text-rendering : optimizeLegibility;
     -webkit-font-smoothing : antialiased;
 }
@@ -64,6 +64,7 @@ body {
 .login form {
     max-width: 420px;
     margin: 30px auto;
+
 }
 
 .container{
@@ -74,8 +75,8 @@ body {
 
 .login .btn {
     border: none; !important;
-    position: relative;
-    padding: 0.9rem 11rem;
+       position: relative;
+    padding: 0.9rem 8rem;
     display: inline-block;
     text-transform: uppercase;
     background: #e4aa5e;
@@ -92,7 +93,7 @@ body {
 .login .btn:after{
     content: "خوش آمديد";
     position: absolute;
-    padding: 0.9rem 11rem;
+    padding: 0.9rem 8rem;
     z-index: -1;
     transition: all 0.5s ease-out;
     border-radius: 1px;
@@ -110,6 +111,7 @@ body {
 }
 
 .form-group input {
+    font-family: "B Kamran",'Comic Sans MS';
     font-size: 20px;
     font-weight: lighter;
     border: none;
@@ -127,7 +129,7 @@ body {
 
 .form-check {
     padding: 0;
-    text-align: left;
+    text-align: left; !important;
 }
 
 .form-check label {
@@ -140,7 +142,7 @@ body {
 }
 
 .register {
-    text-align: right;
+    text-align: right;!important;
     float: right;
     font-weight: bold;
 }
@@ -220,7 +222,7 @@ input:checked + .slider:before {
     }
 
     .register {
-        text-align: right;
+        text-align: right;!important;
         float: left;
         padding: 20px 0;
     }

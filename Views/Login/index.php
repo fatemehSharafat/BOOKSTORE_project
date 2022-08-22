@@ -1,5 +1,4 @@
 
-
 <!-- Backgrounds -->
 
 <div id="login-bg" class="container-fluid">
@@ -35,14 +34,10 @@
                         </label>
                         <label class="form-check-label" for="exampleCheck1">مرا بخاطر بسپار</label>
 
-                        <label class="register">آيا عضو سايت هستيد؟<a href="<?php echo URL; ?>RegisterController/">ثبت نام<a></label>
-
+                        <label class="register">آيا عضو سايت هستيد؟<a href="<?php echo URL; ?>RegisterController">ثبت نام<a></label>
+                        <br>
                     </div>
-
-                    <br>
-                    <div class="container">
-                        <button type="submit" class="btn">ورود</button>
-                    </div>
+                    <button type="submit" class=" btn">ورود</button>
                 </form>
                 <!-- End Loging form -->
 
