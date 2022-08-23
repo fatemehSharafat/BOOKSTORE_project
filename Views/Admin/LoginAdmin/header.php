@@ -9,12 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Loding font -->
+    <!-- LodingAdmin font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet">
 
     <!--custom index css file link-->
     <link rel="stylesheet" href="Public/Css/login.css">
 
-    <title>Login | BOOKSTORE</title>
+    <title>LoginAdmin | BOOKSTORE</title>
+
 </head>
 <body>
+

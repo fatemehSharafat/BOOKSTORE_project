@@ -1,6 +1,6 @@
 <?php
 
-class Model_LoginController extends Model
+class Model_HomeController extends Model
 {
     public function __construct()
     {
