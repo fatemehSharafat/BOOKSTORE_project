@@ -10,22 +10,28 @@
 
             <ul class="navbar-nav ml-auto mr-2">
                 <!--home Admin bnt-->
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">
-                        <i class="fa fa-home"></i>
-                        صفحه اصلي
-                        <span class="sr-only">(current)</span>
+                <li class="nav-item dropdown">
+                    <a class=" nav-link dropdown-toggle " ref="<?php echo URL ?>AdminController/index"
+                       id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        داشبورد مديريت
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="<?php echo URL ?>AdminController/showSettingAdmin">نمايش جزئيات</a>
+<!--                        <a class="dropdown-item" href="#">Another action</a>-->
+<!--                        <div class="dropdown-divider"></div>-->
+<!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="<?php echo URL ?>AdminController/index">
+                        <!--                        <i class="fa fa-envelope-o">-->
+                        <!--                            <span class="badge badge-danger">11</span>-->
+                        <!--                        </i>-->
+                        ورود اطلاعات
                     </a>
                 </li>
                 <!-================== other btn in navbar Admin =====================-->
-                <!--                                        <li class="nav-item">-->
-                <!--                                            <a class="nav-link disabled" href="#">-->
-                <!--                                                <i class="fa fa-envelope-o">-->
-                <!--                                                    <span class="badge badge-danger">11</span>-->
-                <!--                                                </i>-->
-                <!--                                                Link-->
-                <!--                                            </a>-->
-                <!--                                        </li>-->
                 <!--                    <li class="nav-item">-->
                 <!--                        <a class="nav-link disabled" href="#">-->
                 <!--                            <i class="fa fa-envelope-o">-->
@@ -54,8 +60,8 @@
                                 <span><?php echo $_SESSION['email']; ?></span></p></a>
                         <div class="dropdown-divider "></div>
                         <a href="<?php echo URL ?>LoginAdminController/logOut" class="dropdown-item adiv">خروج</a>
-<!--                        <div class="adiv">جديد <a href="login.php">ورود</a> | <a href="register.php">ثبت نام </a>-->
-                        </div>
+                        <!--                        <div class="adiv">جديد <a href="login.php">ورود</a> | <a href="register.php">ثبت نام </a>-->
+                        <!--                        </div>-->
                     </div>
                 </li>
 

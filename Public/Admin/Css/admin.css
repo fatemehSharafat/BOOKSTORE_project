@@ -1,44 +1,54 @@
 
-body{
+body {
     font: 30px 'B Homa';
     font-family: "B Homa";
+    background-color: #fefae0;
 
 
 }
-.container-fluid{
-    padding: 0 !important; ;
+
+.container-fluid {
+    padding: 0 !important;;
 }
 
+
+/***** menu Admin ******/
 .menu {
-    width: 100% ;
+    width: 100%;
 }
-.navbar-nav>li{
+
+.navbar-nav > li {
     /*float: left!important;*/
-    font-size: 21px ;
+    font-size: 21px;
 }
-.navbar{
+
+.navbar {
     border-radius: 0 !important;
     justify-content: flex-end;
-    background-color: #283618;
+    background-color: #606c38;
 }
-.navbar-inverse .navbar-nav>.active>a{
+
+.navbar-inverse .navbar-nav > .active > a {
     border-radius: 0 !important;
-    background-color: #e4aa5e;
+
 
 }
-.adiv{
+
+.adiv {
     text-align: center;
 }
 
-
-/***************/
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*.navbar-expand-lg .navbar-nav {*/
 /*    -ms-flex-direction: row;*/
 /*    flex-direction: row-reverse;*/
 /*}*/
-
+.dropdown-menu{
+    background-color: #90a955;
+    color: white;
+    text-align: center;
+}
 .navbar-brand{
     display: flex;
     flex-basis: auto;
@@ -214,5 +224,103 @@ body{
         padding: 0.5rem 1rem;
         flex-direction: row-reverse;
     }
+}
+
+/***** End menu Admin ******/
+/***** Product form Admin ******/
+
+/***** End Product form Admin ******/
+form {
+    background-color: #A2B38B;
+    color: #495057;
+    padding: 0.375rem 0.75rem;
+    margin-top: 30px;
+    border-radius: 2.25rem;
+
+}
+
+form > h1 {
+    text-align: center;
+    padding: 3.375rem 4.75rem;
+    font-size: 5rem;
+}
+
+.form-control {
+    display: block;
+    width: 88%;
+    padding: 1.375rem 2.6rem;
+    margin: 0rem 2.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F0F0F0;
+    background-clip: padding-box;
+    border: 0px solid #ced4da;
+    border-radius: 2.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control > h1 {
+    text-align: center;
+
+}
+
+.product textarea {
+    height: 300px;
+}
+
+.product {
+    text-align: right;
+    padding: 1rem 1rem;
+}
+
+.product label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-right: 3.5rem;
+}
+
+@media (min-width: 576px) {
+    .form-control {
+        display: block;
+        width: 88%;
+        padding: 1.375rem 2.6rem;
+        margin: 0rem 1.5rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #F0F0F0;
+        background-clip: padding-box;
+        border: 0px solid #ced4da;
+        border-radius: 2.25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+    .form-control {
+        display: block;
+        width: 88%;
+        padding: 1.375rem 2.6rem;
+        margin: 0rem 2.5rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #F0F0F0;
+        background-clip: padding-box;
+        border: 0px solid #ced4da;
+        border-radius: 2.25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
 
 }
