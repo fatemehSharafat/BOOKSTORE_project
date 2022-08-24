@@ -5,14 +5,18 @@ class AdminController extends Controller
     public function __construct()
     {
         parent::__construct();
+        Model::initSession();
+        if(Model::getSession('admin')==false){
+            Model::landingPage('LoginAdminController/index');
+        }
     }
 
     public function index()
     {
-        echo 'this page is admin';
-//        $this->Header('Index/header');
-//        $this->View('Index/index');
-//        $this->Footer('Index/footer');
+
+        $this->Header('Admin/AdminPage/header');
+        $this->View('Admin/AdminPage/index');
+        $this->Footer('Admin/AdminPage/footer');
     }
 
 }

@@ -1,17 +1,22 @@
-
 <?php
+
 if (Model::getSession('wrong')):?>
-    <h1><?php echo Model::getSession('wrong'); ?></h1>
+    <h1 dir="rtl"><?php echo Model::getSession('wrong'); ?></h1>
 <?php endif; ?>
+<?php
+if (Model::getSession('admin')) {
+    Model::landingPage('AdminController/index');
+}
+?>
 
-    <!-- Backgrounds -->
-    <div id="login-bg" class="container-fluid">
+<!-- Backgrounds -->
+<div id="login-bg" class="container-fluid">
 
-        <div class="bg-img"></div>
-        <div class="bg-color"></div>
-    </div>
+    <div class="bg-img"></div>
+    <div class="bg-color"></div>
+</div>
 
-    <!-- End Backgrounds -->
+<!-- End Backgrounds -->
 
 
     <div class="container" id="login">

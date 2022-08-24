@@ -38,4 +38,12 @@ class LoginAdminController extends Controller
             Model::landingPage('LoginAdminController/index');
         }
     }
+
+    public function logOut()
+    {
+        Model::SetSession('admin',null);
+        Model::SetSession('wrong',null);
+        Model::landingPage('LoginAdminController/index');
+
+    }
 }
