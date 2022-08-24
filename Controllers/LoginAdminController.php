@@ -18,10 +18,8 @@ class LoginAdminController extends Controller
             $finalPass= sha1($hash);
             $this->modelDb->insertAdmin($username,$finalPass);
         }
-        $this->Header('Admin/LoginAdmin/header');
-        $this->View('Admin/LoginAdmin/index');
-        $this->Footer('Admin/LoginAdmin/footer');
-    }
+         $this->View('Admin/LoginAdmin/index');
+     }
 
     public function checkAdmin()
     {
