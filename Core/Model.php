@@ -48,7 +48,7 @@ class Model
     }
 
 //    uploadImage method
-    public function UploadImage($image, $path)
+    public static function UploadImage($image, $path)
     {
         $upload = 1;
         $image_new = $image['name'];
@@ -58,7 +58,7 @@ class Model
         }
         $targetFile = $path . $image_new;
         $fileType = pathinfo($targetFile, PATHINFO_EXTENSION);
-        if ($fileType !== '.jpg' && $fileType !== '.png') {
+        if ($fileType !== 'jpg' && $fileType !== 'png') {
             $upload = 0;
         }
         if ($image['size'] > 5000000) {

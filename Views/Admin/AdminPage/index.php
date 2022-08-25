@@ -30,11 +30,11 @@
  <?php  require 'Views/Admin/menu.php'?>
     <section class="product" dir="rtl">
         <section class="container">
-            <form action="<?php echo URL; ?>AdminController/insertSettingAdmin" method="post">
-                <h1>ايجاد كتاب </h1>
+            <form action="<?php echo URL; ?>AdminController/insertSettingAdmin" method="post" class="form">
+                <h1>بروز رساني اطلاعات وب سايت </h1>
                 <div class="form-group">
-                    <label for="title">عنوان كتاب:</label>
-                    <input type="text" name="title" class="form-control" placeholder="عنوان رو وارد كنيد.." id="title">
+                    <label for="title">عنوان صفحه:</label>
+                    <input type="text" name="title" class="form-control" placeholder="عنوان را وارد كنيد.." id="title">
                 </div>
                 <div class="form-group">
                     <label for="author">نويسنده:</label>
@@ -42,17 +42,17 @@
                            id="author">
                 </div>
                 <div class="form-group">
-                    <label for="description">شرح خلاصه‌ي كتاب:</label>
+                    <label for="description">توضيحات سئو :</label>
                     <textarea type="text" name="description" class="form-control"
-                              placeholder="خلاصه‌اي از كتاب وارد كنيد.."
+                              placeholder="توضيحات را وارد كنيد.."
                               id="description"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="keywords">كليد واژه ها</label>
+                    <label for="keywords">كليد واژه ها:</label>
                     <textarea type="text" name="keywords" class="form-control"
                               placeholder="كليد واژه هاي مرتبط را وارد كنيد.." id="keywords"></textarea>
                 </div>
-                <button type="submit" class="btn btn-success btn-block">ايجاد كتاب</button>
+                <button type="submit" class="btn btn-success btn-block"> اعمال بروز رساني </button>
             </form>
 
         </section>

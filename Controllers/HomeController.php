@@ -9,9 +9,7 @@ class HomeController extends Controller
 
     public function index()
     {
-        $this->Header('Home/header');
         $this->View('Home/index');
-        $this->Footer('Home/footer');
     }
 
 }
