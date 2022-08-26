@@ -37,6 +37,12 @@ body {
 .adiv {
     text-align: center;
 }
+logo-img {
+    vertical-align: middle;
+    border-style: none;
+    height: 4rem !important;
+    width: 3.5rem;
+}
 
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 

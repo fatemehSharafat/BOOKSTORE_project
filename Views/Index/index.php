@@ -1,5 +1,16 @@
-
-<h1 class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eos exercitationem ipsa rem. Assumenda atque
-    consectetur earum iste magni molestiae neque optio reprehenderit voluptatibus. Ab aut cupiditate distinctio fugiat
-    magnam.</h1>
-
+<?php  require 'Views/Home/menu.php'?>
+<?php  require 'Views/Home/index.php'?>
+<?php  require 'Views/Home/slider.php'?>
+<?php  require 'Views/Home/card.php'?>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
