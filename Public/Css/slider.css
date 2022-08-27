@@ -1736,7 +1736,7 @@ textarea.form-control {
   margin-bottom: 0; }
 
 .form-check-inline {
-  display: -webkit-inline-box;
+
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;

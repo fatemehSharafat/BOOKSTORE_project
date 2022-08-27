@@ -10,9 +10,12 @@ class IndexController extends Controller
     public function index()
     {
         $meta=$this->modelDb ->getMeta();
-        $data=['meta'=>$meta];
+        $slider=$this->modelDb ->getSlider();
+        $data=['meta'=>$meta, 'slider'=>$slider];
         $this->Header('Index/header',$data);
-        $this->View('Index/index');
+        $this->View('Index/index',$data);
         $this->Footer('Index/footer');
+
+//        $this->View('Index/index',$data);
     }
 }

@@ -13,4 +13,10 @@ class Model_IndexController extends Model
         $query = $this->doSelect($sql,[],1);
         return $query;
     }
+    public function getSlider()
+    {
+        $sql = "SELECT * FROM slider";
+        $query = $this->doSelect($sql,[]);
+        return $query;
+    }
 }
