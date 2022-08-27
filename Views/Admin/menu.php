@@ -42,6 +42,22 @@
                     </div>
                 </li>
 <!--=================================== End Slider bnt======================================-->
+<!--=================================== Category bnt======================================-->
+                <li class="nav-item dropdown">
+                    <a class=" nav-link dropdown-toggle " ref="<?php echo URL ?>AdminController/index"
+                       id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        دسته بندی محصولات
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="<?php echo URL ?>CategoryController/index">ورود اطلاعات محصولات  </a>
+                        <a class="dropdown-item" href="<?php echo URL ?>CategoryController/showSettingCategory"> نمايش جزئيات دسته بندی محصولات </a>
+                        <!--                        <a class="dropdown-item" href="#">Another action</a>-->
+                        <!--                        <div class="dropdown-divider"></div>-->
+                        <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                    </div>
+                </li>
+<!--=================================== End Category bnt======================================-->
                 <li class="nav-item">
                     <a class="nav-link " href="<?php echo URL ?>AdminController/index">
                         <!--                        <i class="fa fa-envelope-o">-->
