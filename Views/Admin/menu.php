@@ -50,22 +50,23 @@
                         دسته بندی محصولات
                     </a>
                     <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="<?php echo URL ?>CategoryController/index">ورود اطلاعات محصولات  </a>
+                        <a class="dropdown-item" href="<?php echo URL ?>CategoryController/index">ورود اطلاعات دسته بندي   </a>
                         <a class="dropdown-item" href="<?php echo URL ?>CategoryController/showSettingCategory"> نمايش جزئيات دسته بندی محصولات </a>
-                        <!--                        <a class="dropdown-item" href="#">Another action</a>-->
+                        <a class="dropdown-item" href="<?php echo URL ?>ProductController/index"> ايجاد محصول جديد</a>
+                        <a class="dropdown-item" href="<?php echo URL ?>ProductController/showSettingProduct">نمايش محصولات</a>
                         <!--                        <div class="dropdown-divider"></div>-->
                         <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
                     </div>
                 </li>
 <!--=================================== End Category bnt======================================-->
-                <li class="nav-item">
-                    <a class="nav-link " href="<?php echo URL ?>AdminController/index">
-                        <!--                        <i class="fa fa-envelope-o">-->
-                        <!--                            <span class="badge badge-danger">11</span>-->
-                        <!--                        </i>-->
-                        ورود اطلاعات
-                    </a>
-                </li>
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link " href="--><?php //echo URL ?><!--AdminController/index">-->
+<!--                                                <i class="fa fa-envelope-o">-->
+<!--                                                    <span class="badge badge-danger">11</span>-->
+<!--                                                </i>-->
+<!--                        ورود اطلاعات-->
+<!--                    </a>-->
+<!--                </li>-->
                 <!-================== other btn in navbar Admin =====================-->
                 <!--                    <li class="nav-item">-->
                 <!--                        <a class="nav-link disabled" href="#">-->

@@ -35,6 +35,14 @@ header {
     letter-spacing: 2px;
 }
 
+logo-img {
+    vertical-align: middle;
+    border-style: none;
+    height: 4rem !important;
+    width: 3.5rem;
+}
+
+
 nav {
     position: fixed !important;
     width: 100%;
