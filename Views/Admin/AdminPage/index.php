@@ -15,7 +15,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <!--Logo set-->
-    <link rel="shortcut icon" sizes="300x310" href="Public/assets/bookstore01.png">
+    <link rel="shortcut icon" sizes="300x310" href="../../../Public/assets/logo/logo-green.png">
     <!--custom index css file link-->
     <link rel="stylesheet" href="Public/Admin/Css/admin.css">
 

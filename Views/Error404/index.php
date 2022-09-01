@@ -1,10 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <base href="<?php echo URL; ?>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--custom CSS bootstrap cdn link  -->
@@ -19,10 +18,10 @@
 
 <!--body error404 page-->
 <nav class="shelf">
-    <a class="book home-page" href="<?php echo URL; ?>IndexController/index">صفحه اصلي</a>
-    <a class="book about-us">درباره ما</a>
-    <a class="book contact" href="">سبد خريد</a>
-    <a class="book faq" href="#">جستجو</a>
+    <a class="book home-page" href="<?php echo URL; ?>IndexController/index/#hero-fullscreen">صفحه اصلي</a>
+    <a class="book about-us" href="<?php echo URL; ?>IndexController/index/#about">درباره ما</a>
+    <a class="book contact" href="<?php echo URL; ?>IndexController/index/#faq">سوالات متداول</a>
+    <a class="book faq" href="<?php echo URL; ?>IndexController/index/#subscribeEmail">عضويت در خبرنامه</a>
 
     <span class="book not-found"></span>
 

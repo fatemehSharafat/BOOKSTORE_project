@@ -35,7 +35,7 @@ body {
 }
 
 #register {
-    padding-top: 3%;
+    padding-top: 10%;
     text-align: center;
     text-transform: uppercase;
 }
@@ -47,12 +47,12 @@ body {
     border-radius: 25px;
     box-shadow: 0px 7px 14px #606060;
     padding: 15px;
-    padding-top: 5px;
+    padding-top: 25px;
 }
 
 .register h1 {
 
-    margin-top: 30px;
+    margin-top: 62px;
     font-weight: bold;
     font-size: 60px;
     font-family: "B Homa";

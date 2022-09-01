@@ -26,7 +26,7 @@
         <i class="fa fa-bars fa-2x"></i>
     </div>
     <div class="logo">
-        <img src="Public/assets/bookstore01.png" class="logo-img" height="65rem" width=" 65rem"/>
+        <img src="../../Public/assets/logo/logo-green.png" class="logo-img" height="65rem" width=" 65rem"/>
     </div>
     <div class="menu">
         <ul>

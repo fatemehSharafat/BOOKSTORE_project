@@ -54,12 +54,7 @@
                         <input type="password" name="cpassword" placeholder="رمزعبور را مجدد وارد كنيد.." maxlength="100" required
                                class="form-control" id="exampleInputPassword1">
                     </div>
-                    <div class="form-group">
-                        <select name="user_type" class="form-group form-control">
-                            <option value="user">كاربر</option>
-                            <option value="admin">مدير</option>
-                        </select>
-                    </div>
+
                     <label class="login">آيا قبلا عضو سایت شده اید؟<a href="<?php echo URL; ?>loginController/index">ورود<a></label>
 
                     <button type="submit" class="btn">ثبت نام</button>

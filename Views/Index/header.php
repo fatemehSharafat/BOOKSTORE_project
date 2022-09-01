@@ -1,49 +1,42 @@
 <!--HEADER INDEX PAGE-->
-<!doctype html>
-<html lang="en" >
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
 <head>
-    <?php $meta=$data['meta']; ?>
 
+    <?php $meta=$data['meta']; ?>
     <base href="<?php echo URL;  ?>">
     <title><?php echo $meta['title']; ?></title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="<?php echo $meta['description']; ?>">
     <meta name="keywords" content="<?php echo $meta['keywords']; ?>">
     <meta name="author" content="<?php echo $meta['author']; ?>">
-    <!--    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
 
-    <!-- Home font -->
+    <!-- Favicons -->
+    <link href="Public/assets/logo/logo-white.png" rel="icon">
 
-    <!--custom CSS bootstrap cdn link  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
+    <!-- Vendor CSS Files -->
+    <link href="Public/assets/vender/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="Public/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="Public/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="Public/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <link rel="shortcut icon" sizes="300x310" href="Public/assets/bs6.png">
+    <!-- Variables CSS Files -->
+    <link href="Public/Css/variables.css" rel="stylesheet">
 
-    <!-- ============ custom link for menue =========== -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<!--    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>-->
-<!--    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
-    <!------ Include the above in your HEAD tag ---------->
-<!--    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>-->
-    <!--custom index css file link-->
-    <link rel="stylesheet" href="Public/Css/menu.css">
-    <!-- ============ end custom link for menue =========== -->
+    <!--  Main CSS File -->
+    <link href="Public/Css/main.css" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
-    <!-- ============ custom link for slider =========== -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-    <link rel="stylesheet" href="Public/Css/owl.carousel.min.css">
-    <link rel="stylesheet" href="Public/Css/slider.css">
-    <!-- ============ end custom link for slider =========== -->
+    <!-- Toastr CSS  -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
-    <!--custom index css file link-->
-    <link rel="stylesheet" href="Public/Css/style.css">
 
 </head>
 <body >
