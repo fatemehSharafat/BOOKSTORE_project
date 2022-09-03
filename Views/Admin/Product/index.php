@@ -52,11 +52,11 @@
                     </div>
                     <div class="form-group">
                         <label for="category_type">نوع دسته:</label>
-                        <select name="category_type" class="form-group form-control" id="category_type" >
-                            <option value="story">داستانی</option>
-                            <option value="psychology">روانشناسی</option>
-                            <option value="teenager">نوجوان</option>
-                            <option value="english">انگلیسی</option>
+                        <select name="category_type" class=" form-control" id="category_type" >
+                            <option value="داستانی">داستانی</option>
+                            <option value="روانشناسی">روانشناسی</option>
+                            <option value="نوجوان">نوجوان</option>
+                            <option value="انگلیسی">انگلیسی</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -102,8 +102,8 @@
                     </div>
                     <div class="form-group">
                         <label for="category_type">نوع دسته:</label>
-                        <select name="category_type" class="form-group form-control" id="category_type">
-                            <option value="<?php echo $product['category_type']; ?>"><?php echo $product['category_type']; ?></option>
+                        <select name="category_type" class="form-group form-control" id="category_type" value="<?php echo $product['category_type']; ?>">
+                            <?php echo $product['category_type']; ?>
                             <option value="داستانی">داستانی</option>
                             <option value="روانشناسی">روانشناسی</option>
                             <option value="نوجوان">نوجوان</option>
@@ -113,7 +113,7 @@
                     <div class="form-group">
                         <label for="summary">خلاصه کتاب:</label>
                         <textarea type="text" name="summary" class="form-control"
-                                  value="<?php echo $product['summary']; ?>" placeholder="خلاصه کتاب  را وارد كنيد.." id="summary"></textarea>
+                                  value="<?php echo $product['summary']; ?>"  id="summary"><?php echo $product['summary']; ?></textarea>
                     </div>
                     <div class="form-group">
                         <label for="price">قیمت محصول :</label>

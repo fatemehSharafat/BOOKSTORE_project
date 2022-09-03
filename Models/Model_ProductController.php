@@ -40,7 +40,7 @@ class Model_ProductController extends Model
             $image_new=$product['image'];
         } else {
             $image_new = $image_new;
-            $sql = "update product set  title=?,author=?,category_type=?,summary=?,price=?,image_new=? WHERE id=?";
+            $sql = "update product set  title=?,author=?,category_type=?,summary=?,price=?,image=? WHERE id=?";
             $query = $this->doSelect($sql, [$title,$author,$category,$summary,$price,$image_new, $id]);
         }
     }
