@@ -5,7 +5,7 @@
                 aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <img src="../../Public/assets/logo/logo-green.png" class="logo-img" height="60rem" width=" 60rem" />
+        <img src="<?php echo URL; ?>Public/assets/logo/logo-green.png" class="logo-img" height="60rem" width=" 60rem" />
         <a class="navbar-brand ml-auto mr-2  " href="#">BOOKSTORE</a>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
 

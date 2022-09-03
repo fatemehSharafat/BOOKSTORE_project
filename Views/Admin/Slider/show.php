@@ -18,7 +18,7 @@
 
 
     <!--=======================Logo set===========================-->
-    <link rel="shortcut icon" sizes="300x310" href="../../../Public/assets/logo/logo-green.png">
+    <link rel="shortcut icon" sizes="300x310" href="Public/assets/logo/logo-green.png">
 
     <!--custom index css file link-->
     <link rel="stylesheet" href="Public/Admin/Css/admin.css">
