@@ -19,4 +19,10 @@ class Model_IndexController extends Model
         $query = $this->doSelect($sql,[]);
         return $query;
     }
+    public function getProduct()
+    {
+        $sql = "SELECT * FROM product";
+        $query = $this->doSelect($sql,[]);
+        return $query;
+    }
 }

@@ -7,9 +7,9 @@ class HomeController extends Controller
         parent::__construct();
     }
 
-    public function index()
+        public function index()
     {
-        $this->View('Home/index');
+        $this->View('Product/index');
     }
 
 }

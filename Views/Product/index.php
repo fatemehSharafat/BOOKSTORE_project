@@ -70,7 +70,7 @@
 
                 <div class="col-lg-4">
                     <img class=" img-fluid img-responsive"
-                         src="<?php echo URL; ?>Views/Admin/Slider/Images/dastan_do_shahr.jpg" alt="">
+                         src="<?php echo URL; ?>Views/Admin/Product/Images/09.jpg" alt="">
 
                 </div>
 

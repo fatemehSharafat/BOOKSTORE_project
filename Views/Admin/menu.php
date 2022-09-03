@@ -90,10 +90,10 @@
                         </i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#"
-                        <p>نام كاربري : <span><?php echo $_SESSION['username']; ?></span></p></a>
-                        <a class="dropdown-item" href="#"><p>آدرس ايميل :
-                                <span><?php echo $_SESSION['email']; ?></span></p></a>
+<!--                        <a class="dropdown-item" href="#"-->
+<!--                        <p>نام كاربري : <span>--><?php //echo $_SESSION['username']; ?><!--</span></p></a>-->
+<!--                        <a class="dropdown-item" href="#"><p>آدرس ايميل :-->
+<!--                                <span>--><?php //echo $_SESSION['email']; ?><!--</span></p></a>-->
                         <div class="dropdown-divider "></div>
                         <a href="<?php echo URL ?>LoginAdminController/logOut" class="dropdown-item adiv">خروج</a>
                         <!--                        <div class="adiv">جديد <a href="login.php">ورود</a> | <a href="register.php">ثبت نام </a>-->

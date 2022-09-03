@@ -44,7 +44,7 @@ logo-img {
     width: 3.5rem;
 }
 
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");*/
 
 /*.navbar-expand-lg .navbar-nav {*/
 /*    -ms-flex-direction: row;*/
@@ -264,7 +264,7 @@ form > h1 {
     border-radius: 2.25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-select.form-control:not([size]):not([multiple]) {
+select .form-control:not([size]):not([multiple]) {
     height: calc(4.25rem + 7px);
     text-align: center;
 }

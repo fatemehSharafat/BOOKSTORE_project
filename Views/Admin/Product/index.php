@@ -52,7 +52,7 @@
                     </div>
                     <div class="form-group">
                         <label for="category_type">نوع دسته:</label>
-                        <select name="category_type" class=" form-control" id="category_type" >
+                        <select name="category_type" class=" form-control" id="category_type"  STYLE="height: calc(4.25rem + 7px);">
                             <option value="داستانی">داستانی</option>
                             <option value="روانشناسی">روانشناسی</option>
                             <option value="نوجوان">نوجوان</option>
@@ -102,8 +102,9 @@
                     </div>
                     <div class="form-group">
                         <label for="category_type">نوع دسته:</label>
-                        <select name="category_type" class="form-group form-control" id="category_type" value="<?php echo $product['category_type']; ?>">
-                            <?php echo $product['category_type']; ?>
+                        <select name="category_type" class="form-group form-control" id="category_type"   STYLE="height: calc(4.25rem + 7px);">
+
+                            <option value="<?php echo $product['category_type']; ?>"><?php echo $product['category_type']; ?></option>
                             <option value="داستانی">داستانی</option>
                             <option value="روانشناسی">روانشناسی</option>
                             <option value="نوجوان">نوجوان</option>
@@ -125,7 +126,7 @@
                                id="id">
                     </div>
                     <div class="form-group">
-                        <label for="image" >:بارگذاري تصوير:</label>
+                        <label for="image" >بارگذاري تصوير:</label>
                         <input type="file" name="image" id="image"></input>
                     </div>
 

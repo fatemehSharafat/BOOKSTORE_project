@@ -7,10 +7,7 @@ class ProductController extends Controller
         parent::__construct();
     }
 
-//    public function index()
-//    {
-//        $this->View('Product/index');
-//    }
+
 
     public function index($id=0,$edit='')
     {

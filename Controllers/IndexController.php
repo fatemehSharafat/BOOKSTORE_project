@@ -11,7 +11,8 @@ class IndexController extends Controller
     {
         $meta=$this->modelDb ->getMeta();
         $slider=$this->modelDb ->getSlider();
-        $data=['meta'=>$meta, 'slider'=>$slider];
+        $product=$this->modelDb ->getProduct();
+        $data=['meta'=>$meta, 'slider'=>$slider , 'product'=>$product];
         $this->Header('Index/header',$data);
         $this->View('Index/index',$data);
         $this->Footer('Index/footer');
