@@ -52,7 +52,7 @@
                     </div>
                     <div class="form-group">
                         <label for="category_type">نوع دسته:</label>
-                        <select name="category_type" class="form-group form-control" id="category_type">
+                        <select name="category_type" class="form-group form-control" id="category_type" >
                             <option value="story">داستانی</option>
                             <option value="psychology">روانشناسی</option>
                             <option value="teenager">نوجوان</option>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="form-group">
                         <label for="price">قیمت محصول :</label>
-                        <input type="text" name="price" class="form-control" placeholder=" قیمت محصول را وارد كنيد.."
+                        <input type="number" name="price" class="form-control" placeholder=" قیمت محصول را وارد كنيد.."
                                id="price">
                     </div>
                     <div class="form-group">
@@ -113,11 +113,11 @@
                     <div class="form-group">
                         <label for="summary">خلاصه کتاب:</label>
                         <textarea type="text" name="summary" class="form-control"
-                                  value="<?php echo $product['author']; ?>" placeholder="خلاصه کتاب  را وارد كنيد.." id="summary"></textarea>
+                                  value="<?php echo $product['summary']; ?>" placeholder="خلاصه کتاب  را وارد كنيد.." id="summary"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="price">قیمت محصول :</label>
-                        <input type="text" name="author" class="form-control" value="<?php echo $product['price']; ?>"
+                        <input type="number" name="price" class="form-control" value="<?php echo $product['price']; ?>"
                                id="price">
                     </div>
                     <div class="form-group">

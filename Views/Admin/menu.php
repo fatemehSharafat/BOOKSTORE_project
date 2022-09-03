@@ -86,7 +86,7 @@
                     <a class=" nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-user">
-                            <span class="badge  badge-info ">11</span>
+<!--                            <span class="badge  badge-info ">11</span>-->
                         </i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">

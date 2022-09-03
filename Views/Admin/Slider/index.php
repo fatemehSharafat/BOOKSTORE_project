@@ -91,7 +91,7 @@
                         <input type="file" name="image" id="image"></input>
                     </div>
 
-                    <button type="submit" class="btn btn-success btn-block">ايجاد اسلايد</button>
+                    <button type="submit" class="btn btn-success btn-block">بروزرساني اسلايد</button>
                 </form>
 
             </section>
