@@ -9,7 +9,7 @@ class Model_AdminController extends Model
 
     public function insertSettingAdmin($title, $author, $description, $keywords)
     {
-        $sql = "INSERT INTO meta (title,author,description,keywords) VALUES (?,?,?,?)";
+        $sql = "INSERT INTO meta (title,author,description,keywords) VALUES ,?,?,?)";
         $this->doQuery($sql, [$title, $author, $description, $keywords]);
     }
     public function showSettingAdmin()

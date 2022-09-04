@@ -149,14 +149,14 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item row gy-5">
                             <?php $count = 0;
-                            $slider = $data['slider'];
-                            foreach ($slider as $item): ?>
+                            $product = $data['product'];
+                            foreach ($product as $item): ?>
                             <div class=" col-2 d-flex align-items-end justify-content-center">
                                 <article class="card">
-                                    <img src="<?php echo URL;?>Views/Admin/Slider/Images/<?php echo $item['image'];?>" class="img-fluid">
+                                    <img src="<?php echo URL;?>Views/Admin/Product/Images/<?php echo $item['image'];?>" class="img-fluid">
                                     <div class="card__content">
-                                        <h3 class="card__title"><?php echo $item['caption']; ?> </h3>
-                                        <span class="card_subtitle"><strong><?php echo $item['caption']; ?></strong> تومان </span>
+                                        <h3 class="card__title"><?php echo $item['title']; ?> </h3>
+                                        <span class="card_subtitle"><strong><?php echo $item['price']; ?></strong> تومان </span>
                                         <div class=" social">
                                             <a href=""><i class="bi bi-bell-fill"></i></i></a>
                                             <a href="" mr-3 ml-3> <i class="bi bi-cart-plus-fill"></i></a>

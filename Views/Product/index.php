@@ -81,14 +81,14 @@
                             <div class="col-lg-9 ">
                                 <h3>مشخصات كتاب</h3>
                                 <ul>
-                                    <li><strong>نام كتاب :</strong>داستان دو شهر</li>
-                                    <li><strong> نام نويسنده :</strong>چارلز ديكنز</li>
+                                    <li><strong>نام كتاب :</strong>دنياي سوفي</li>
+                                    <li><strong> نام نويسنده :</strong>يوستين گوردر</li>
                                     <li><strong>موضوع كتاب :</strong>داستاني</li>
                                     <li><strong>زبان كتاب :</strong>ترجمه فارسي</li>
                                 </ul>
                             </div>
                             <div class="col-lg-3 d-grid price" >
-                                <h2 class="font-weight-bold"> تومان <strong>35,600</strong></h2>
+                                <h2 class="font-weight-bold"> تومان <strong>135,600</strong></h2>
                                 <button class="btn btn-danger btn-block buy "><i class="bi bi-cart3"></i> اضافه به سبد خريد</button>
                             </div>
                         </div>
@@ -139,85 +139,3 @@
 
 </html>
 
-
-<!--                                    داستان يك شهر را عنوان ميكنيد.اين كتاب داستان يك شهر را عنوان ميكنيد. </p>-->
-<!--                            </div>-->
-<!--                            <!--*************************************** end description book ************************************-->-->
-<!---->
-<!--                            <hr>-->
-<!--                            <div class="d-flex flex-row align-items-center" style="font-size: 16px;"><i-->
-<!--                                        class="fa fa-calendar-check-o" class="ml-1"></i> <span class="mr-1">زمان تحويل : تا 1 هفته‌ي كاري</span>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="about">-->
-<!--                            <div class="d-flex flex-row">-->
-<!--                                <div class="col s12 x12 m12 4 d-flex align-items-end  price"><span-->
-<!--                                            class="font-weight-bold">3,444</span><span-->
-<!--                                            class="font-weight-bold mr-2">تومان  </span></div>-->
-<!---->
-<!--                                <div class="col s12 x12 m12 14">-->
-<!--                                    <div class="buttons">-->
-<!--                                        <!--                            <button class="btn btn-outline-warning btn-long cart">Add to Cart</button>-->-->
-<!--                                        <button class="btn btn-warning btn-long buy"> اضافه به سبد خريد</button>-->
-<!--                                        <button class="btn btn-light wishlist"><i class="fa fa-heart"></i></button>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!---->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!---->
-<!--</section>-->
-<!--<!-- end product page-->-->
-<!---->
-<!--<!--footer-->-->
-<!--<!--end footer-->-->
-<!---->
-<!---->
-<!--<!--end body-->-->
-<!---->
-<!--<!--=========== js ========== -->-->
-<!--<!--  jquery cdn link  -->-->
-<!--<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->-->
-<!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
-<!---->
-<!--<!-- Vendor JS Files -->-->
-<!--<script src="Public/assets/vender/bootstrap/js/bootstrap.bundle.min.js"></script>-->
-<!--<script src="Public/assets/vendor/aos/aos.js"></script>-->
-<!--<script src="Public/assets/vendor/glightbox/js/glightbox.min.js"></script>-->
-<!--<script src="Public/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>-->
-<!--<script src="Public/assets/vendor/swiper/swiper-bundle.min.js"></script>-->
-<!--<script src="Public/assets/vendor/php-email-form/validate.js"></script>-->
-<!---->
-<!--<!-- Main JS File -->-->
-<!--<script src="Public/js/main.js"></script>-->
-<!---->
-<!--<!-- Toastr  JS cnd -->-->
-<!--<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>-->
-<!---->
-<!---->
-<!--<!--js-->-->
-<!--<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>-->
-<!--<!-- custom  bootstrap js  link  -->-->
-<!--<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js'></script>-->
-<!---->
-<!--<!-- custom  jquery link  -->-->
-<!--<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>-->
-<!---->
-<!--<!--js script-->-->
-<!--<script>-->
-<!--    $('#lightSlider').lightSlider({-->
-<!--        gallery: true,-->
-<!--        item: 1,-->
-<!--        loop: true,-->
-<!--        slideMargin: 0,-->
-<!--        thumbItem: 9-->
-<!--    });-->
-<!---->
-<!--</script>-->
-<!--</body>-->
-<!--</html>-->
