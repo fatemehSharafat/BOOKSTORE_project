@@ -86,22 +86,3 @@
 </header><!-- End Header -->
 
 <!--js-->
-<script>
-    $(document).ready(function() {
-        var parent= $("#header").parent().attr('id');
-        console.log(parent);
-        if (parent == "menuProduct"){
-            $('#header').addClass('black');
-
-        }else{
-            $(window).on("scroll", function () {
-
-                if ($(window).scrollTop()) {
-                    $('#header').addClass('black');
-                } else {
-                    $('#header').removeClass('black');
-                }
-
-            });}
-    });
-</script>
